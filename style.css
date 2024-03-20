@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 248, 248);
+}
+
+
+.navbar1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navlist{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    gap: 40%;
+}
+
+.firstbutton{
+    margin-left: 10%;
+    margin-right: 30%;
+     font-size: large; 
+    border-radius: 20%;
+}
+
+.secondbutton{
+    background-color: black;
+    color: white;
+     font-size: large; 
+    border-radius: 20%;
+    margin-right: 5%;
+}
+
+
+.t1{
+    text-decoration: none;
+    color: black;
+    gap: 2%;
+    justify-content: space-between;
+}
+
+.a{
+    background-image: url("https://www.shutterstock.com/image-photo/unhappy-teenage-girl-look-screen-260nw-2019472076.jpg" );
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    margin-top: 5%;
+    height: 60vh;
+    margin-right: 5%;
+}
+
+.better{
+    color: black;
+    font-size: xx-large;
+    margin-left: 4%;
+    margin-top: 10%;
+}
+
+p{
+    margin-top: 5%;
+    font-size: x-small;
+   
+}
+
+.thirdbutton{
+    margin-left: 3%;
+}
+
+
+.chairman{
+   /* background-image: url("");
+    background-repeat: no-repeat;
+    margin-top: 20%;
+    width: 889px; */
+    margin-left: 2%;
+} 
+
+.img img{
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+    border: solid;
+    border-radius: 20%;
+    border-color: white;
+
+}
+
+.cols1{
+    display: flex;
+     /* justify-content: space-around;   */
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 3%; 
+}
+
+#you{
+    font-size: small;
+}
+
+.vest{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin-top: 10%;
+}
+
+
+.ul{
+    box-sizing: border-box;
+    border: solid;
+    border-radius: 5%;
+    border-color: white;
+    background-color: white;
+    color: black;
+    height: 70vh;
+    display: block;
+    width: 90%;
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+.ul:hover{
+   background-color: #0f60d6;
+   color: white;
+ 
+}
+
+.to{
+    margin-left: 10%;
+    font-size: x-large;
+    
+}
+
+.u{
+    font-size: x-small;
+}
+
+.list{
+    margin-left: 10%;
+    font-size: x-large;
+}
+
+.imgn{
+    height: 40%;
+    width: 40%;
+    margin-top: 25%; 
+    margin-left: 50%;
+}
+
+.nest{
+    display: flex;
+     /* justify-content: space-around;   */
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 4%;
+}
+
+.fist{
+    box-sizing: border-box;
+    border: solid;
+    border-radius: 5%;
+    border-color: white;
+    background-color: white;
+    margin-left: 10%;
+    height: 70vh;
+    display: block;
+    width: 200%;
+}
+
+.il{
+    box-sizing: border-box;
+    border: solid;
+    border-radius: 5%;
+    border-color: white;
+    background-color: white;
+    margin-left: 10%;
+    height: 70vh;
+    display: block;
+    width: 200%;
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+.fist:hover{
+    background-color: #2295f2;
+    color: white;
+} 
+
+.il:hover{
+    background-color: #39c277;
+    color: white;
+} 
+
+.z{
+    font-size: large;
+}
+
+.imgj{
+    height: 30%;
+    width: 40%;
+    margin-top: 30%; 
+    margin-left: 50%;
+}
+
+.imgh{
+    height: 30%;
+    width: 40%;
+    margin-top: 42%; 
+    margin-left: 50%;
+}
+
