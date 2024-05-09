@@ -1,7 +1,33 @@
+/* Base styles for all screen sizes */
 body{
+    font-size: 16px; /* Set base font size */
     margin: 0;
     padding: 0;
     background-color: rgb(241, 248, 248);
+}
+
+
+
+.container {
+    width: 90%; /* Use percentage for fluid layout */
+    max-width: 1200px; /* Set maximum width */
+    margin: 0 auto; /* Center the container */
+}
+
+/* Responsive styles for different screen sizes */
+@media screen and (max-width: 768px) {
+    /* Styles for small screens (e.g., smartphones) */
+    .container {
+        width: 65%; /* Adjust container width for smaller screens */
+        height: 65%;/* Adjust container width for smaller screens */
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /* Styles for medium screens (e.g., tablets) */
+    .container {
+        width: 80%; /* Adjust container width for medium screens */
+    }
 }
 
 
@@ -217,4 +243,280 @@ p{
     margin-top: 42%; 
     margin-left: 50%;
 }
+
+.pig{
+    display: flex;
+     /* justify-content: space-around;   */
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 4%;
+}
+
+.piggy{
+    box-sizing: border-box;
+    border: solid;
+    border-radius: 5%;
+    border-color: white;
+    background-color: white;
+    margin-left: 10%;
+    height: 70vh;
+    display: block;
+    width: 200%;
+}
+
+.ill{
+    box-sizing: border-box;
+    border: solid;
+    border-radius: 5%;
+    border-color: white;
+    background-color: white;
+    margin-left: 10%;
+    height: 70vh;
+    display: block;
+    width: 200%;
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+.piggy:hover{
+    background-color: #e5489b;
+    color: white;
+} 
+
+.ill:hover{
+    background-color:#0c1825 ;
+    color: white;
+} 
+
+.zee{
+    font-size: large;
+}
+
+.imgz{
+    height: 30%;
+    width: 40%;
+    margin-top: 30%; 
+    margin-left: 50%;
+}
+
+.imgzee{
+    height: 30%;
+    width: 40%;
+    margin-top: 42%; 
+    margin-left: 50%;
+}
+
+.victory{
+    margin-top: 10%;
+    background-color: white;
+    box-sizing: border-box;
+    border: solid;
+    border-color: white;
+    height: 160vh;
+}
+
+#victory{
+    margin-left: 30%;
+    margin-top: 10%;
+    box-sizing: border-box;
+    border: solid;
+    border-color: white;
+}
+
+.life{
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+
+.pro{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-sizing: border-box;
+    border: solid;
+    border-radius: 5%;
+    border-color: white;
+    background-color: #7913e5
+}
+
+.imgvictory{
+    height: 70vh;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#life{
+    margin-left: 5%;
+    font-size: xx-large;
+    margin-top: 5%;
+    color: white;
+}
+
+#charlie{
+    font-size: large;
+    color: #cc8eec;
+}
+
+iframe{
+    margin-top: 5%;
+    background-color: #f2f7f8;
+    box-sizing: border-box;
+    border-radius: 5%;
+    border: solid;
+    border-color: white;
+    margin-left: 25%;
+}
+
+.video{
+    background-color: #f2f7f8;
+    box-sizing: border-box;
+    border: solid;
+    border-color: white;
+}
+
+#video{
+    font-size: xx-large;
+    margin-left: 30%;
+}
+
+.vid{
+    font-size:large;
+    margin-left: 25%;
+}
+
+.day{
+    width: 35%;
+    height: 80vh;
+    margin-left: 3%;
+    margin-top: 15%;
+}
+
+.js{
+    display: flex;
+}
+
+.today{
+    margin-top: 30%;
+    margin-left: 4%;
+    font-size: xx-large;
+}
+
+.iphone, .andriod{
+    border: transparent;
+    border-radius: 20%;
+    height: 10%;
+}
+
+.victor{
+    background-color: white;
+    
+}
+
+.os{
+    display: flex;
+
+}
+
+.flour{
+    margin-left: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: xx-large;
+}
+
+.udia{
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+.daniel{
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+.dan{
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+.name{
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+.lap{
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+.laptop{
+    margin-top: 1%;
+    margin-left: 4%;
+}
+
+.fair{
+    display: flex;
+    margin-top: 10%;
+}
+
+.next{
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+.fee{
+    font-size: small;
+    margin-left: 10%;
+}
+#fee{
+    margin-left: 20%;
+}
+
+.fun{
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+#fun{
+    margin-left: 20%;
+}
+
+.ma{
+    display: flex;
+}
+
+.pit{
+    margin-left: 10%;
+    font-size: small;
+    
+}
+
+#pit{
+    margin-left: 34%;
+    font-size: small;
+}
+
+.pits{
+    font-size: small;
+}
+
+#pits{
+    margin-left: 10%;
+    font-size: small;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
